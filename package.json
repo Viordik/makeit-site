@@ -1,0 +1,19 @@
+{
+  "name": "makeit-site",
+  "version": "1.0.0",
+  "description": "Тестовое задание от компании Makeit.\r Адаптивная страница: мобильная, планшетная, десктопная.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Viordik/makeit-site.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Viordik/makeit-site/issues"
+  },
+  "homepage": "https://github.com/Viordik/makeit-site#readme"
+}
