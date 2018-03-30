@@ -17,43 +17,69 @@
     </symbol>
   </svg> -->
 
-  <header class="page-header">
+  <!-- <header class="page-header">
     <div class="btn">
       <button class="btn__menu" type="menu">открыть меню</button>
     </div>
-  </header>
+  </header> -->
   <main class="page-main">
-    <h1 class="block-tech-support-text">Техническая поддержка</h1>
-
-    <a class="btn btn--appeal" href="#">создать обращение</a>
+    <section class="block-main-header">
+      <h1 class="block-tech-support-text">Техническая поддержка</h1>
+      <a class="btn btn--appeal" href="#">+ создать обращение</a>
+    </section>
 
     <section class="block-qa">
+      <div class="table-header">
+        <span class="table-header__caption">заголовок</span>
+        <span class="table-header__id">id</span>
+        <span class="table-header__edit">изменино</span>
+      </div>
       <ul class="qa-list">
         <li class="qa-list__item">
           <article class="block-appeal block-appeal--success">
-            <span class="block-appeal__status-text">есть ответ</span>
-            <time class="block-appeal__time">19 июля 2017 11:14</time>
+            <div class="block-appeal__header">
+              <div class="status-text-wrapper">
+                <span class="block-appeal__status-text">есть ответ</span>
+              </div>
+                <span class="block-appeal__number-appeal">#45</span>
+                <time class="block-appeal__time">19 июля 2017 11:14</time>
+            </div>
             <p class="block-appeal__description">Доработка отобрадения галереи инстаграм</p>
           </article>
         </li>
         <li class="qa-list__item">
           <article class="block-appeal block-appeal--wait">
-            <span class="block-appeal__status-text">ожидает ответа</span>
-            <time class="block-appeal__time">19 июля 2017 11:14</time>
+            <div class="block-appeal__header">
+              <div class="status-text-wrapper">
+                <span class="block-appeal__status-text">ожидает ответа</span>
+              </div>
+              <span class="block-appeal__number-appeal">#3</span>
+              <time class="block-appeal__time">19 июля 2017 11:14</time>
+            </div>
             <p class="block-appeal__description">Обращение в поддержку ТЕСТ</p>
           </article>
         </li>
         <li class="qa-list__item">
           <article class="block-appeal block-appeal--close">
-            <span class="block-appeal__status-text">обращение закрыто</span>
-            <time class="block-appeal__time">19 июля 2017 11:14</time>
+            <div class="block-appeal__header">
+              <div class="status-text-wrapper">
+                <span class="block-appeal__status-text">обращение закрыто</span>
+              </div>
+              <span class="block-appeal__number-appeal">#136</span>
+              <time class="block-appeal__time">19 июля 2017 11:14</time>
+            </div>
             <p class="block-appeal__description">Именения в выгрузке комментариев в 1С</p>
           </article>
         </li>
         <li class="qa-list__item">
           <article class="block-appeal block-appeal--success">
-            <span class="block-appeal__status-text">есть ответ</span>
-            <time class="block-appeal__time">19 июля 2017 11:14</time>
+            <div class="block-appeal__header">
+              <div class="status-text-wrapper">
+                <span class="block-appeal__status-text">есть ответ</span>
+              </div>
+              <span class="block-appeal__number-appeal">#100</span>
+              <time class="block-appeal__time">19 июля 2017 11:14</time>
+            </div>
             <p class="block-appeal__description">Диагностирование и исправление мелких багов</p>
           </article>
         </li>
