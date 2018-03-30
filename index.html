@@ -4,80 +4,62 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="style.min.css">
+  <link rel="stylesheet" href="css/style.min.css">
   <title>support main</title>
 </head>
 <body class="page-body">
+  <svg style="display:none">
+
+  </svg>
+
   <header class="page-header">
     <div class="btn">
       <button class="btn__menu" type="menu">открыть меню</button>
     </div>
   </header>
   <main class="page-main">
-    <div class="block-tech-support">
-      <h1 class="block-tech-support__text">Техническая поддержка</h1>
-    </div>
-    <div class="block-new-appeal">
-      <a class="new-appeal-link" href="#">+ создать обращение</a>
-    </div>
+    <h1 class="block-tech-support-text">Техническая поддержка</h1>
+
+    <a class="btn btn--appeal" href="#">создать обращение</a>
+
     <section class="block-qa">
       <ul class="qa-list">
         <li class="qa-list__item">
-          <div class="block-answer">
-            <span class="status-answer">есть ответ</span>
-          </div>
-          <div class="block-time">
-            <time class="time">19 июля 2017 11:14</time>
-          </div>
-          <div class="block-description-problem">
-            <p class="description-problem-text">Доработка отобрадения галереи инстаграм</p>
-          </div>
+          <article class="block-appeal block-appeal--success">
+            <span class="block-appeal__status-text">есть ответ</span>
+            <time class="block-appeal__time">19 июля 2017 11:14</time>
+            <p class="block-appeal__description">Доработка отобрадения галереи инстаграм</p>
+          </article>
         </li>
         <li class="qa-list__item">
-          <div class="block-answer">
-            <span class="status-answer">ожидает ответа</span>
-          </div>
-          <div class="block-time">
-            <time class="time">19 июля 2017 11:14</time>
-          </div>
-          <div class="block-description-problem">
-            <p class="description-problem-text">Обращение в поддержку ТЕСТ</p>
-          </div>
+          <article class="block-appeal block-appeal--wait">
+            <span class="block-appeal__status-text">ожидает ответа</span>
+            <time class="block-appeal__time">19 июля 2017 11:14</time>
+            <p class="block-appeal__description">Обращение в поддержку ТЕСТ</p>
+          </article>
         </li>
         <li class="qa-list__item">
-          <div class="block-answer">
-            <span class="status-answer">обращение закрыто</span>
-          </div>
-          <div class="block-time">
-            <time class="time">19 июля 2017 11:14</time>
-          </div>
-          <div class="block-description-problem">
-            <p class="description-problem-text">Изминения в выгрузке комментариев в 1С</p>
-          </div>
+          <article class="block-appeal block-appeal--close">
+            <span class="block-appeal__status-text">обращение закрыто</span>
+            <time class="block-appeal__time">19 июля 2017 11:14</time>
+            <p class="block-appeal__description">Именения в выгрузке комментариев в 1С</p>
+          </article>
         </li>
         <li class="qa-list__item">
-          <div class="block-answer">
-            <span class="status-answer">есть ответ</span>
-          </div>
-          <div class="block-time">
-            <time class="time">19 июля 2017 11:14</time>
-          </div>
-          <div class="block-description-problem">
-            <p class="description-problem-text">Диагностирование и исправление мелких багов</p>
-          </div>
+            <article class="block-appeal block-appeal--success">
+              <span class="block-appeal__status-text">есть ответ</span>
+              <time class="block-appeal__time">19 июля 2017 11:14</time>
+              <p class="block-appeal__description">Диагностирование и исправление мелких багов</p>
+            </article>
         </li>
       </ul>
     </section>
     <section class="block-help">
-      <div class="help-caption">
-        <h2 class="help-caption__text">Помощь</h2>
-      </div>
-      <div class="help-specification">
-        <p class="help-specification__text">Формируйте задачи по администрированию
+        <h2 class="help-caption-text">Помощь</h2>
+        <p class="help-specification-text">Формируйте задачи по администрированию
           сайта, наполнения контентом или
           технической поддержки, а мы их будем выполнять в рамках отведенного времени.
         </p>
-      </div>
     </section>
   </main>
   <!-- <footer></footer> -->
