@@ -5,9 +5,9 @@
     display: inline-block;
     padding: 14px 0;
 
+    width: 100%;
     font-weight: 600;
     font-size: 13px;
-    font-family: Glober;
     text-align: center;
     color: #ffffff;
     text-transform: uppercase;
@@ -33,5 +33,11 @@
 
       clip-path: polygon(100% 0, 0 0, 100% 66%);
     }
+  }
+}
+
+@media(min-width: 768px) {
+  .btn {
+    width: 70%;
   }
 }

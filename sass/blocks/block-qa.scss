@@ -1,3 +1,51 @@
 .block-qa {
   margin: 32px 0;
 }
+
+.table-header {
+  display: none;
+}
+
+@media(min-width: 768px) {
+  .table-header {
+    display: flex;
+    flex-direction: row;
+    padding: 14px 20px;
+
+    &__caption {
+      flex-grow: 5;
+      flex-basis: 15%;
+
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 26px;
+      color: #cecece;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+
+    &__id {
+      flex-grow: 1;
+      flex-basis: 11%;
+
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 26px;
+      color: #cecece;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+
+    &__edit {
+      flex-grow: 1;
+      flex-basis: 11%;
+
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 26px;
+      color: #cecece;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+  }
+}

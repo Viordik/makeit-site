@@ -8,3 +8,10 @@
   font-family: Glober;
   color: #222222;
 }
+
+@media(min-width: 768px) {
+  .block-tech-support-text {
+    width: 100%;
+    padding: 0;
+  }
+}
