@@ -14,3 +14,10 @@
     width: 100%;
   }
 }
+
+@media(min-width: 1024px) {
+  .page-body {
+    width: 100%;
+    padding: 0 28px;
+  }
+}
