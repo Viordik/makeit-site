@@ -105,7 +105,12 @@ gulp.task("html:update", ["html:copy"], (done) => {
 
 gulp.task("server", () => {
   server.init({
-    server: "build/"
+    server: {
+      baseDir: "./build"
+    },
+    tunnel: true,
+    host: 'localhost',
+    port: 9000,
   });
 
   gulp.watch("sass/**/*.{scss,sass}", ["style"]);
