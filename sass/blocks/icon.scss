@@ -1,0 +1,32 @@
+.icon {
+  display: inline-block;
+  margin-right: 10px;
+
+  &--plus {
+    position: relative;
+    width: 10px;
+    height: 10px;
+
+    &::after, &::before {
+      content: '';
+      position: absolute;
+      background-color: white;
+    }
+
+    &::after {
+      height: 10px;
+      width: 2px;
+      top: 0;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+
+    &::before {
+      width: 10px;
+      height: 2px;
+      top: 50%;
+      left: 0;
+      transform: translateY(-50%);
+    }
+  }
+}

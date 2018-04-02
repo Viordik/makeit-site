@@ -4,13 +4,21 @@
 
   font-weight: 400;
   font-size: 30px;
-  line-height: 35px;
+  line-height: 1;
   color: #222222;
 }
 
 @media(min-width: 768px) {
   .block-tech-support-text {
-    width: 100%;
+    flex-basis: 65%;
     padding: 0;
+  }
+}
+
+@media(min-width: 1260px) {
+  .block-tech-support-text {
+    font-weight: 400;
+    font-size: 54px;
+    color: #222222;
   }
 }

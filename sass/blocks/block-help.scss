@@ -2,19 +2,37 @@
   margin-bottom: 159px;
 }
 
-.help-caption-text {
+.block-help__caption-text {
   margin: 0;
   padding-bottom: 5px;
-  color: #222222;
-  font-size: 22px;
+
   font-weight: 600;
+  font-size: 22px;
   line-height: 26px;
+  color: #222222;
 }
 
-.help-specification-text {
+.block-help__spec-text {
   margin: 0;
-  color: #222222;
-  font-size: 16px;
+
   font-weight: 400;
+  font-size: 16px;
   line-height: 25px;
+  color: #222222;
+}
+
+@media(min-width: 768px) {
+  .block-help {
+    width: 100%;
+  }
+
+  .block-help__spec-text {
+    max-width: 542px;
+  }
+}
+
+@media(min-width: 1260px) {
+  .block-help__spec-text {
+    max-width: 586px;
+  }
 }
