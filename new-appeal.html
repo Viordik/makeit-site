@@ -14,40 +14,68 @@
     </div>
   </header> -->
   <main class="page-main">
-    <section>
-      <h1 class="">Новое обращение</h1>
-      <a href="./index.html">вернуться к списку</a>
-    </section>
+    <form class="">
+      <section class="block-main-header">
+        <h1 class="block-main-header__caption">Новое обращение</h1>
+        <a class="btn btn--back-list" href="./index.html">вернуться к списку</a>
+      </section>
 
-    <section class="">
-      <div class="">
-        <h2 class="">Заголовок:</h2>
-        <span class="">Выгрузка CSV</span>
-      </div>
-      <div class="">
-        <h2 class="">Сообщение:</h2>
-        <p class="">Установлены все последние обновления: установлены все стабильные</p>
-        <p class="">Справочные материалы не помогли решить проблему: Да</p>
-        <p class="">Проверка сайта не диагностирует проблем: есть ошибки конфигурации</p>
-        <p class="">При выгрузке инфоблока в формате CSV выводится неверная кодировка, как это исправить?</p>
-      </div>
-    </section>
-    <section class="">
-      <h2 class="">Прикрепить файлы:</h2>
-      <span class="">Max 4000 Кб</span>
-      <div class="">
-        <input type="file" name="select file" id="file">
-        <input type="file" name="select file" id="file">
-        <input type="file" name="select file" id="file">
-      </div>
-      <div class="">
-        <a href="#">назад</a>
-        <button class="push" type="submit">отправить</button>
-      </div>
-    </section>
+      <section class="block-new-appeal">
+        <div class="new-appeal-header">
+          <h2 class="new-appeal-header__caption">Заголовок:</h2>
+          <label class="block-input">
+            <input class="input input--field-text" type="text" placeholder="Введите имя заголовка">
+          </label>
+        </div>
+        <div class="block-message">
+          <h2 class="block-message__caption">Сообщение:</h2>
+          <div class="block-message__body">
+            <p class="message__text-bold">Установлены все последние обновления: <span class="message">установлены все стабильные</span></p>
+            <p class="message__text-bold">Справочные материалы не помогли решить проблему: <span class="message">Да</span></p>
+            <p class="message__text-bold">Проверка сайта не диагностирует проблем: <span class="message">есть ошибки конфигурации</span></p>
+            <p class="message">При выгрузке инфоблока в формате CSV выводится неверная кодировка, как это исправить?</p>
+          </div>
+        </div>
+      </section>
+      <section class="block-attached-files">
+        <h2 class="block-attached-files__caption">Прикрепить файлы:</h2>
+        <span class="max-size-files">Max 4000 Кб</span>
+        <div class="file-upload">
+          <div>
+            <label class="upload">
+              <input type="file" name="select-file-1" id="">
+              <span class="custom-upload-file">выбрать файл</span>
+            </label>
+            <span id="file-name">Файл не выбран</span>
+          </div>
+          <div style="margin: 27px 0">
+            <label class="upload">
+              <input type="file" name="select-file-2" id="">
+              <span class="custom-upload-file">выбрать файл</span>
+            </label>
+            <span>Файл не выбран</span>
+          </div>
+          <div>
+            <label class="upload">
+              <input type="file" name="select-file-3" id="">
+              <span class="custom-upload-file">выбрать файл</span>
+              </label>
+              <span>Файл не выбран</span>
+          </div>
+        </div>
+        <div class="block-back-push">
+          <a class="btn btn--back" href="#" style="max-width: 128px"><span class="icon icon--arrow-left"></span>назад</a>
+          <div>
+            <button class="btn btn--black" type="submit"><img style="display: none" src="./img/icons/icon-push.svg" alt="arrow-push">отправить</button>
+          </div>
+          <p class="information">Что-то про ответ на обращение, время, порядок</p>
+        </div>
+      </section>
+    </form>
   </main>
   <!-- <footer class="page-footer">
 
   </footer> -->
+  <script src="./js/script.min.js"></script>
 </body>
 </html>
