@@ -1,0 +1,15 @@
+textarea {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 20px;
+  overflow: auto;
+
+  font-size: 13px;
+  font-family: "Glober";
+
+  border: none;
+  outline: none;
+
+  resize: none;
+}
