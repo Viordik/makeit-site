@@ -9,7 +9,7 @@ console.log(blogUploads);
 
   fileInput.addEventListener('change', function (evt) {
 
-    textElement.textContent = this.value;
+    textElement.textContent = value.replace(/.*[\/\\]/, '');
 
   });
 
