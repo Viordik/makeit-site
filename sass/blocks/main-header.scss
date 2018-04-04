@@ -1,0 +1,20 @@
+@media(min-width: 768px) {
+  .main-header {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: 45px;
+  }
+}
+
+@media(min-width: 1260px) {
+  .main-header {
+    flex-direction: row-reverse;
+    margin-top: 63px;
+  }
+}
+
+@media(min-width: 1920px) {
+  .main-header {
+    margin-top: 86px;
+  }
+}
