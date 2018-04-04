@@ -1,0 +1,47 @@
+.block-chat {
+  margin-top: 30px;
+  padding: 30px 0;
+
+  border-top: 1px solid #f2f2f2;
+  border-bottom: 1px solid #f2f2f2;
+
+
+  &__1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  &__2 {
+    padding-top: 45px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  &__message {
+    margin: 0;
+    padding-top: 5px;
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #222222;
+  }
+}
+
+.name {
+  margin: 0;
+  padding-right: 15px;
+
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  color: #222222;
+
+  &--support {
+    padding-right: 15px;
+  }
+}
