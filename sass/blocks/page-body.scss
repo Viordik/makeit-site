@@ -7,6 +7,10 @@
   font-family: "Glober", sans-serif;
 
   background-color: #fafafa;
+
+  &--authorization {
+    background-color: #212121;
+  }
 }
 
 @media(min-width: 768px) {
