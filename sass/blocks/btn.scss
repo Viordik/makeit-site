@@ -1,11 +1,13 @@
 .btn {
+  line-height: 1;
+
   &--appeal {
     position: relative;
 
     display: inline-block;
+    width: 100%;
     padding: 14px 0;
 
-    width: 100%;
     font-weight: 600;
     font-size: 13px;
     text-align: center;
@@ -34,10 +36,68 @@
       clip-path: polygon(100% 0, 0 0, 100% 66%);
     }
   }
+
+  &--back-list {
+    display: inline-block;
+    width: 100%;
+    padding: 14px 0;
+
+    font-weight: 600;
+    font-size: 13px;
+    text-align: center;
+    color: #222222;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 1.8px;
+
+    border: 1px solid #212121;
+  }
+
+  &--back {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 9px;
+    padding: 14px 0;
+
+    font-weight: 600;
+    font-size: 13px;
+    text-align: center;
+    color: #222222;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 1.8px;
+
+    border: 1px solid #212121;
+  }
+
+  &--black {
+    padding: 0;
+    padding: 14px 43px;
+
+    font-weight: 600;
+    font-size: 13px;
+    font-family: "Glober";
+    text-align: center;
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 1.8px;
+
+    background-color: #212121;
+    border: none;
+    border: 1px solid #212121;
+  }
 }
 
 @media(min-width: 768px) {
   .btn {
     max-width: 250px;
+
+    &--back {
+      margin-right: 10px;
+    }
+
+    &--black {
+      margin-right: 21px;
+    }
   }
 }
