@@ -41,6 +41,7 @@
     display: inline-block;
     width: 100%;
     padding: 14px 0;
+    margin-bottom: 10px;
 
     font-weight: 600;
     font-size: 13px;
@@ -84,6 +85,22 @@
 
     background-color: #212121;
     border: none;
+    border: 1px solid #212121;
+  }
+
+  &--open-appeal {
+    display: inline-block;
+    width: 100%;
+    padding: 14px 0;
+
+    font-weight: 600;
+    font-size: 13px;
+    text-align: center;
+    color: #222222;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 1.8px;
+
     border: 1px solid #212121;
   }
 }
