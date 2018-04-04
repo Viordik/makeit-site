@@ -1,0 +1,32 @@
+.block-message {
+  margin-top: 30px;
+
+  &__caption {
+    margin: 0;
+
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 26px;
+    color: #222222;
+  }
+
+  &__body {
+    padding: 20px;
+
+    background-color: white;
+  }
+}
+
+.message {
+  margin: 0;
+  padding-bottom: 10px;
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 25px;
+  color: #222222;
+
+  &__text-bold {
+    font-weight: 700;
+  }
+}

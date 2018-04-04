@@ -1,0 +1,42 @@
+.block-back-push {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.custom-push-file input[type=submit] {
+  display: none;
+}
+
+.custom-push-file {
+  &__text {
+    display: block;
+    padding: 14px 43px;
+
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 1;
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 1.8px;
+
+    background-color: #212121;
+    border: 1px solid #212121;
+  }
+}
+
+.arrow-push {
+  padding-right: 10px;
+}
+
+.information {
+  padding-top: 9px;
+}
+
+@media(min-width: 768px) {
+  .block-back-push {
+    justify-content: flex-start;
+  }
+}
