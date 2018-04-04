@@ -1,0 +1,13 @@
+.lol {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding-bottom: 17px;
+}
+
+@media(min-width: 1260px) {
+  .block-main-body {
+    margin-top: 30px;
+    flex-basis: 70%;
+  }
+}
