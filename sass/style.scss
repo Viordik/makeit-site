@@ -3,7 +3,7 @@
 @import "./blocks/page-body.scss";
 @import "./blocks/page-main.scss";
 @import "./blocks/block-main-header.scss";
-@import "./blocks/block-tech-support-text.scss";
+@import "./blocks/block-main-header__caption.scss";
 @import "./blocks/btn.scss";
 @import "./blocks/icon.scss";
 @import "./blocks/block-qa.scss";
@@ -11,3 +11,12 @@
 @import "./blocks/qa-list__item.scss";
 @import "./blocks/block-appeal.scss";
 @import "./blocks/block-help.scss";
+
+//style for page new appeal
+@import "./blocks/block-new-appeal.scss";
+@import "./blocks/new-appeal-header";
+@import "./blocks/block-message";
+@import "./blocks/block-attached-files";
+@import "./blocks/file-upload";
+@import "./blocks/custom.scss";
+@import "./blocks/block-back-push";
