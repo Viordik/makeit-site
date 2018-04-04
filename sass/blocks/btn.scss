@@ -42,6 +42,7 @@
     width: 100%;
     padding: 14px 0;
     margin-bottom: 10px;
+    margin-right: 10px;
 
     font-weight: 600;
     font-size: 13px;
@@ -115,6 +116,15 @@
 
     &--black {
       margin-right: 21px;
+    }
+  }
+}
+
+
+@media(min-width: 1260px) {
+  .btn {
+    &--back-list {
+      margin-right: 0;
     }
   }
 }

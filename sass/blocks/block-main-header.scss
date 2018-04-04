@@ -1,14 +1,24 @@
 .block-main-header {
   margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 @media(min-width: 768px) {
   .block-main-header {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    margin-top: 54px;
+    justify-content: flex-start;
     width: 100%;
-    align-items: center;
+    align-items: baseline;
+  }
+}
+
+@media(min-width: 1260px) {
+  .block-main-header {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+    padding-top: 42px;
+    flex-basis: 30%;
   }
 }
