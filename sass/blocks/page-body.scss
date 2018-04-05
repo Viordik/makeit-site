@@ -8,7 +8,7 @@
 
   background-color: #fafafa;
 
-  &--authorization {
+  &--auth {
     background-color: #212121;
   }
 }
@@ -23,6 +23,10 @@
   .page-body {
     width: 100%;
     padding: 0 28px;
+
+    &--auth {
+      min-height: 100%;
+    }
   }
 }
 

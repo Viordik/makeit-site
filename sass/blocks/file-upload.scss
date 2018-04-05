@@ -3,18 +3,29 @@
   margin-bottom: 30px;
 }
 
+.upload {
+  margin-right: 15px;
+}
+
 .upload input[type=file] {
   display: none;
 }
 
 .custom-upload-file {
-  margin-right: 15px;
   padding: 10px 27px;
   font-weight: 600;
   font-size: 11px;
   color: #222222;
   text-transform: uppercase;
   letter-spacing: 1.8px;
-
+  cursor: pointer;
+  white-space: nowrap;
   border: 1px solid #212121;
+}
+
+
+.file-name {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
