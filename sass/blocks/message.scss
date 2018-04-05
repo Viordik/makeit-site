@@ -1,0 +1,13 @@
+.message {
+  margin: 0;
+  padding-top: 5px;
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #222222;
+
+  &--client {
+    padding-bottom: 10px;
+  }
+}
