@@ -108,6 +108,19 @@
 
     border: 1px solid #212121;
   }
+
+  &--attached-file {
+    width: 100%;
+    display: inline-block;
+    text-decoration: none;
+    border: 1px solid #cdcdcd;
+    padding: 15px 0;
+    text-align: left;
+    font-size: 16px;
+    color: #222222;
+    font-weight: 400;
+    text-align: center;
+  }
 }
 
 @media(min-width: 768px) {
@@ -124,6 +137,10 @@
 
     &--black {
       margin-right: 21px;
+    }
+
+    &--attached-file {
+      width: 100%;
     }
   }
 }

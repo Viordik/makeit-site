@@ -6,14 +6,14 @@
   border-bottom: 1px solid #f2f2f2;
 
 
-  &__1 {
+  &__client {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
   }
 
-  &__2 {
+  &__support {
     padding-top: 45px;
     display: flex;
     flex-direction: row;
@@ -29,19 +29,9 @@
     font-size: 16px;
     line-height: 26px;
     color: #222222;
-  }
-}
 
-.name {
-  margin: 0;
-  padding-right: 15px;
-
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 25px;
-  color: #222222;
-
-  &--support {
-    padding-right: 15px;
+    &--client {
+      padding-bottom: 10px;
+    }
   }
 }
