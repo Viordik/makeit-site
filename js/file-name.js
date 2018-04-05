@@ -1,6 +1,6 @@
 const blogUploads = document.querySelectorAll('.file-upload .upload');
 
-console.log(blogUploads);
+
 
 [].forEach.call(blogUploads, function (blogUpload) {
 
@@ -9,7 +9,7 @@ console.log(blogUploads);
 
   fileInput.addEventListener('change', function (evt) {
 
-    textElement.textContent = value.replace(/.*[\/\\]/, '');
+    textElement.textContent = this.value.replace(/.*[\/\\]/, '');
 
   });
 
