@@ -1,0 +1,37 @@
+.id {
+  flex-basis: 15%;
+
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 26px;
+  color: #cecece;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+
+  &--number-appeal {
+    display: none;
+
+    &__bold {
+      display: block;
+      color: #222222;
+    }
+  }
+}
+
+@media(min-width: 768px) {
+  .id {
+    &--number-appeal {
+      display: block;
+      flex-basis: 15%;
+
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 25px;
+      color: #222222;
+
+      &__bold {
+        font-weight: 600;
+      }
+    }
+  }
+}
