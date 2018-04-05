@@ -1,5 +1,6 @@
 @import "./fonts.scss";
 @import "./blocks/authorization.scss";
+@import "./blocks/img.scss";
 
 @import "./blocks/page-body.scss";
 @import "./blocks/page-main.scss";
@@ -18,12 +19,14 @@
 //style for page new appeal
 @import "./blocks/block-new-appeal.scss";
 @import "./blocks/new-appeal-header";
-@import "./blocks/block-message";
+@import "./blocks/edit-new-message";
 @import "./blocks/block-attached-files";
 @import "./blocks/file-upload";
 @import "./blocks/custom.scss";
 @import "./blocks/block-back-push";
 @import "./blocks/input.scss";
+@import "./blocks/text.scss";
+@import "./blocks/block-upload-file.scss";
 
 //style for page appeal detail
 @import "./blocks/textarea.scss";
@@ -32,3 +35,4 @@
 @import "./blocks/main-header.scss";
 @import "./blocks/block-main-body.scss";
 @import "./blocks/name.scss";
+@import "./blocks/message.scss";
