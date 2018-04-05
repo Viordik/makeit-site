@@ -1,0 +1,43 @@
+.time {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #878787;
+
+  &--create,
+  &--close {
+    font-weight: 600;
+    font-size: 10px;
+    color: #222222;
+  }
+
+  &--client,
+  &--support {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #878787;
+  }
+}
+
+@media(min-width: 768px) {
+  .time {
+    flex-basis: 25%;
+
+    &--changed {
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 25px;
+      text-align: left;
+      color: #222222;
+    }
+
+
+    &--create,
+    &--close {
+      font-weight: 600;
+      font-size: 10px;
+      color: #222222;
+    }
+  }
+}
