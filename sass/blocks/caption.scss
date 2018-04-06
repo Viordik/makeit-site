@@ -13,10 +13,19 @@
   &--h2 {
     margin: 0;
     padding-bottom: 5px;
-
     font-weight: 600;
     font-size: 22px;
     line-height: 26px;
+  }
+  &--auth {
+    margin: 0;
+    font-weight: 300;
+    font-size: 30px;
+    color: #ffffff;
+
+    &__send {
+      text-align: center;
+    }
   }
 }
 
@@ -30,8 +39,21 @@
   }
 }
 
+@media(min-width: 1024px) {
+  .caption {
+
+    &--auth {
+      margin: 0;
+
+      font-weight: 300;
+      font-size: 52px;
+    }
+  }
+}
+
 @media(min-width: 1260px) {
   .caption {
+
     &--h1 {
       font-size: 54px;
       font-weight: 400;

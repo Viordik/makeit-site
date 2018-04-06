@@ -3,9 +3,34 @@
   flex-direction: column;
 
   &--auth {
+    // width: 100%;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+  }
+}
+
+@media(min-width: 768px) {
+  .page-main {
+
+    &--auth {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+    }
+  }
+}
+
+@media(min-width: 1024px) {
+  .page-main {
+
+    &--auth {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
   }
 }

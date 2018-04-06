@@ -2,18 +2,9 @@
   margin-top: 27px;
 }
 
-.caption-authorization {
-  margin: 0;
-
-  font-weight: 300;
-  font-size: 40px;
-  font-family: "Glober";
-  color: #ffffff;
-}
-
 .please-authorization {
   font-weight: 400;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 25px;
   font-family: "Glober";
   color: #ffffff;
@@ -68,7 +59,7 @@
 
 .forgot-your-password {
   font-weight: 400;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 25px;
   color: #ffffff;
   text-decoration: none;
@@ -96,7 +87,7 @@
   }
 }
 
-@media(min-width: 1024px) {
+@media(min-width: 768px) {
 
   .authorization {
     max-width: 420px;
@@ -109,13 +100,5 @@
 
   .form-authorization {
     margin-top: 0;
-  }
-
-  .caption-authorization {
-    margin: 0;
-
-    font-weight: 300;
-    font-size: 52px;
-    color: #ffffff;
   }
 }
