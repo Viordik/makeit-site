@@ -1,5 +1,6 @@
 .btn {
   // line-height: 1;
+  cursor: pointer;
 
   &--appeal {
     position: relative;
@@ -87,7 +88,6 @@
     color: #ffffff;
     text-transform: uppercase;
     letter-spacing: 1.8px;
-    cursor: pointer;
 
     background-color: #212121;
     border: none;
@@ -121,6 +121,24 @@
     color: #222222;
     font-weight: 400;
     text-align: center;
+  }
+
+  &--next {
+    display: inline-block;
+    width: 100%;
+    padding: 14px 0;
+    margin-bottom: 9px;
+
+    font-weight: 600;
+    font-size: 13px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #212121;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 1.8px;
+
+    border: 1px solid #212121;
   }
 }
 

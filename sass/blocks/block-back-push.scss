@@ -4,6 +4,10 @@
   flex-wrap: wrap;
   justify-content: space-between;
   width: 100%;
+
+  &--next {
+    margin-bottom: 84px;
+  }
 }
 
 .custom-push-file input[type=submit] {
